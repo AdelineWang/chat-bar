@@ -1,3 +1,84 @@
-ul, li {
+@import "compass/css3";
+
+/* github.com/nobilelucifero/tinyrn.css */ 
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+body {
+  padding: 30px 20px;
+}
+
+
+
+#box {
+	position: absolute;
+	width: 250px;
+	height: 406px;
+	background: #fff;
+	margin-left: 150px;
+	margin-top: 200px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C0C0C0;
+	display: block;
+    position: absolute;
+
+	
+    
+  }
+
+
+.userlist {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+
+
+p {
+	margin-bottom: 40px;
+	text-align: center;
+	color: #555;
+	position: absolute;
+	left:65px;
+	bottom: -21px;
+}
+
+
+li {
 	list-style: none;
+	padding: 10px;
+	font-size: 16px;
+	border-width: 1px;
+	border-color: #C0C0C0;
+	border-style: solid;
+	position: relative;
+	height: 58px;
+	width: 248px;
+	display: block;
+}
+
+img{
+
+	position: relative;
+	left: 4.2cm;
+	top: 5.5cm;
+
+}
+
+br {
+    line-height: 50%;
 }
